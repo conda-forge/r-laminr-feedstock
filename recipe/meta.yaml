@@ -76,6 +76,8 @@ extra:
   recipe-maintainers:
     - conda-forge/r
     - ap--
+    - zethson
+    - sunnyosun
 
 # Package: laminr
 # Title: Client for 'LaminDB'
