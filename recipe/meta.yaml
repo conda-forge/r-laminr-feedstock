@@ -28,24 +28,28 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base >=4.1.0
+    - r-callr
     - r-cli
     - r-lifecycle
     - r-pak
     - r-purrr
     - r-r.utils
     - r-r6
-    - r-reticulate >=1.38.0
+    - r-reticulate >=1.41.0
     - r-rlang
+    - r-sessioninfo
   run:
     - r-base
+    - r-callr
     - r-cli
     - r-lifecycle
     - r-pak
     - r-purrr
     - r-r.utils
     - r-r6
-    - r-reticulate >=1.38.0
+    - r-reticulate >=1.41.0
     - r-rlang
+    - r-sessioninfo
 
 test:
   commands:
@@ -73,7 +77,7 @@ extra:
 
 # Package: laminr
 # Title: Client for 'LaminDB'
-# Version: 1.1.1
+# Version: 1.2.0
 # Authors@R: c(
 #     person("Robrecht", "Cannoodt", , "robrecht@lamin.ai", role = c("aut", "cre"),
 #            comment = c(ORCID = "0000-0003-3641-729X")),
@@ -89,17 +93,17 @@ extra:
 # URL: https://laminr.lamin.ai, https://github.com/laminlabs/laminr
 # BugReports: https://github.com/laminlabs/laminr/issues
 # Depends: R (>= 4.1.0)
-# Imports: cli, lifecycle, pak, purrr, R.utils, R6, reticulate (>=
-#         1.38.0), rlang, utils, withr
-# Suggests: anndata, arrow, jsonlite, knitr, magick, nanoparquet, readr,
-#         rmarkdown, rstudioapi, rsvg, Seurat, testthat (>= 3.0.0), yaml
+# Imports: callr, cli, lifecycle, pkgload, purrr, R.utils, R6, reticulate
+#         (>= 1.41.0), rlang, sessioninfo, utils, withr
+# Suggests: anndata, arrow, jsonlite, knitr, magick, readr, rmarkdown,
+#         rstudioapi, rsvg, testthat (>= 3.0.0), yaml
 # VignetteBuilder: knitr
-# Config/Needs/website: rmarkdown
+# Config/Needs/website: rmarkdown, Seurat
 # Config/testthat/edition: 3
 # Encoding: UTF-8
-# RoxygenNote: 7.3.2
+# RoxygenNote: 7.3.3
 # NeedsCompilation: no
-# Packaged: 2025-05-15 10:55:19 UTC; rcannood
+# Packaged: 2025-10-09 09:37:11 UTC; sunnysun
 # Author: Robrecht Cannoodt [aut, cre] (ORCID:
 #     <https://orcid.org/0000-0003-3641-729X>),
 #   Luke Zappia [aut] (ORCID: <https://orcid.org/0000-0001-7744-8565>),
@@ -107,4 +111,4 @@ extra:
 #   Lamin Labs [aut, cph]
 # Maintainer: Robrecht Cannoodt <robrecht@lamin.ai>
 # Repository: CRAN
-# Date/Publication: 2025-05-15 12:10:05 UTC
+# Date/Publication: 2025-10-09 09:50:10 UTC
