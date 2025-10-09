@@ -31,7 +31,7 @@ requirements:
     - r-callr
     - r-cli
     - r-lifecycle
-    - r-pgkload
+    - r-pkgload
     - r-purrr
     - r-r.utils
     - r-r6
@@ -43,7 +43,7 @@ requirements:
     - r-callr
     - r-cli
     - r-lifecycle
-    - r-pgkload
+    - r-pkgload
     - r-purrr
     - r-r.utils
     - r-r6
