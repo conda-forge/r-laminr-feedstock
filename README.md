@@ -155,4 +155,6 @@ Feedstock Maintainers
 
 * [@ap--](https://github.com/ap--/)
 * [@conda-forge/r](https://github.com/orgs/conda-forge/teams/r/)
+* [@sunnyosun](https://github.com/sunnyosun/)
+* [@zethson](https://github.com/zethson/)
 
