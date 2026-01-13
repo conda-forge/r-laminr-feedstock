@@ -1,4 +1,4 @@
-{% set version = "1.2.1" %}
+{% set version = "1.2.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/laminr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/laminr/laminr_{{ version }}.tar.gz
-  sha256: e81578a44dd7ceb46eb9fcfaa5a0a3d4d2d8ec6f49a0f8eacecd52f3ae93b7f4
+  sha256: d23a29cb805842e54802d1e5d8731a9b0464ca2740472b8eace8a472408f32ae
 
 build:
   number: 0
@@ -79,7 +79,7 @@ extra:
 
 # Package: laminr
 # Title: Client for 'LaminDB'
-# Version: 1.2.1
+# Version: 1.2.2
 # Authors@R: c(
 #     person("Robrecht", "Cannoodt", , "robrecht@lamin.ai", role = c("aut", "cre"),
 #            comment = c(ORCID = "0000-0003-3641-729X")),
@@ -105,7 +105,7 @@ extra:
 # Encoding: UTF-8
 # RoxygenNote: 7.3.3
 # NeedsCompilation: no
-# Packaged: 2025-12-15 13:57:23 UTC; luke
+# Packaged: 2026-01-12 15:54:51 UTC; luke
 # Author: Robrecht Cannoodt [aut, cre] (ORCID:
 #     <https://orcid.org/0000-0003-3641-729X>),
 #   Luke Zappia [aut] (ORCID: <https://orcid.org/0000-0001-7744-8565>),
@@ -113,4 +113,4 @@ extra:
 #   Lamin Labs [aut, cph]
 # Maintainer: Robrecht Cannoodt <robrecht@lamin.ai>
 # Repository: CRAN
-# Date/Publication: 2025-12-15 14:10:10 UTC
+# Date/Publication: 2026-01-12 16:10:02 UTC
