@@ -1,4 +1,4 @@
-{% set version = "1.3.1" %}
+{% set version = "1.3.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/laminr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/laminr/laminr_{{ version }}.tar.gz
-  sha256: e50209379434c3d534648432759cc3a97c262b6a4f6fe782d40a2858ba205ff1
+  sha256: ebfd784c67bad733b1fb4901107e9159df05f4a86832378c75e71bad46585353
 
 build:
   number: 0
